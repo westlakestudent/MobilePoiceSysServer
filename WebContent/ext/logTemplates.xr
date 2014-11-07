@@ -1,0 +1,11 @@
+syslog_doLogin=\u767b\u9646\u65e5\u5fd7
+syslog_doChangeRoomStatus=\u4fee\u6539\u623f\u6001\u65e5\u5fd7
+syslog_doWarrantyRoom=\u62a5\u4fee\u5ba2\u623f\u65e5\u5fd7
+syslog_callRoomInfo=\u5ba2\u623f\u4fe1\u606f\u65e5\u5fd7
+syslog_doRoomCheckedOrReported=\u67e5\u623f\u62a5\u623f\u65e5\u5fd7
+syslog_doRoomChecked=\u67e5\u623f\u5b8c\u6bd5\u65e5\u5fd7
+syslog_doRoomReported=\u62a5\u623f\u5b8c\u6bd5\u65e5\u5fd7
+syslog_doMinibarBill=\u8ff7\u4f60\u5427\u5165\u8d26\u65e5\u5fd7
+syslog_doChangeTempStatus=\u4fee\u6539\u4e34\u65f6\u6001\u65e5\u5fd7
+syslog_callMinibarHistory=\u8ff7\u4f60\u5427\u5165\u8d26\u5386\u53f2\u65e5\u5fd7
+syslog_callGuestRooms=\u83b7\u53d6\u5ba2\u623f\u65e5\u5fd7

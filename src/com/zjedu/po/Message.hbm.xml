@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+           "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+    <class name="com.zjedu.po.Message" table="msg">
+        <id name="id" column="id" type="int">
+            <generator class="increment"/>
+        </id>
+        <property name="city" column="city" type="string" not-null="false"/>
+        <property name="sendtime" column="sendtime" type="string" not-null="false"/>
+        <property name="username" column="username" type="string" not-null="false"/>
+        <property name="msg_content" column="msg_content" type="string" not-null="false"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC 
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN" 
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> 
+<hibernate-configuration>
+	    <session-factory>
+	        <property name="connection.url">jdbc:mysql://localhost:3306/mobilepolicesys</property>
+	        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+	        <property name="connection.username">cd</property>
+	        <property name="connection.password">cd</property>
+	        <property name="Connection.useUnicode">true </property> 
+	        <property name="connection.characterEncoding">UTF-8</property>    
+	        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+	        <property name="hibernate.show_sql">true</property>	        
+	        <property name="current_session_context_class">thread</property>  
+	        <mapping resource="com/zjedu/po/EventReceive.hbm.xml"/>	
+	         <mapping resource="com/zjedu/po/HelpReceive.hbm.xml"/>
+	    </session-factory>
+	</hibernate-configuration>
